@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Battle.net</ShortName>
+<Description>Buscar en Battle.net</Description>
+<Url type="text/html" method="get" template="http://us.battle.net/search?q={searchTerms}" />
+<Image height="16" width="16" type="image/vnd.microsoft.icon">http://us.battle.net/static/images/icons/meta/favicon.ico</Image>
+<moz:SearchForm>http://us.battle.net/search</moz:SearchForm>
+<Url type="application/opensearchdescription+xml" rel="self" template="http://us.battle.net/es-mx/data/opensearch"/>
+</OpenSearchDescription>

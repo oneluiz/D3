@@ -1,0 +1,67 @@
+
+/* container */
+#lightbox-anchor { position:absolute; top:10%; left:0; z-index: 9005; width:100% }
+#lightbox-container { width:890px; height:641px; position:relative; display:none; margin:0 auto; background-color:#000 }
+#lightbox-container .ui-element { background:url(../images/ui/lightbox.png) no-repeat }
+
+/* content holder */
+#lightbox-content { background-repeat:no-repeat; width:100%; height:100%; background-color:#0d0804; z-index:9005; position:absolute }
+#lightbox-content.loading { /* @todo */ }
+
+/* close */
+#lightbox-container .lightbox-close { display:block; position:absolute; float:right; right:-14px; top:-14px; width:70px; height:73px; background: url(../images/ui/lightbox.png) -1px -300px repeat-x; z-index:9006 }
+#lightbox-container .lightbox-close:hover { background-position: -72px -300px }
+
+/* borders*/
+#lightbox-container .border { position:absolute; float:left; z-index:9006 }
+#lightbox-container #lb-border-top { height:18px; top:-18px; left:0; background: url(../images/ui/lightbox-frame.png) 0 0 repeat-x; padding-right: 12px; }
+#lightbox-container #lb-border-right { width:18px; top:0; right:-18px; background: url(../images/ui/lightbox.png) -272px 0 repeat-y; padding-bottom: 9px; }
+#lightbox-container #lb-border-bottom { height:18px; bottom:-18px; left:0; background: url(../images/ui/lightbox-frame.png) 0 -18px repeat-x; padding-right: 12px; }
+#lightbox-container #lb-border-left { width:18px; top:0; left:-18px; background: url(../images/ui/lightbox.png) -254px 0 repeat-y; padding-bottom: 9px; }
+
+/* corners */
+#lightbox-container .corner { position:absolute; background: url(../images/ui/lightbox.png) no-repeat; width:18px; height:18px; float:left; z-index:9006 }
+#lightbox-container .corner-top-left { background-position: -143px -300px; top:-18px; left:-18px }
+#lightbox-container .corner-bottom-left { background-position: -143px -318px; bottom:-18px; left:-18px }
+#lightbox-container .corner-top-right { background-position: -161px -300px; top:-18px; right:-18px }
+#lightbox-container .corner-bottom-right { background-position: -161px -318px; bottom:-18px; right:-18px }
+
+/* paging */
+#lightbox-container .control-wrapper { height:49px; position:absolute; float:left; width:100%; bottom:-35px; z-index:9006 }
+#lightbox-container .control-wrapper .lightbox-controls { width: 142px; height:41px; margin:0 auto; position: relative; padding: 8px 53px 0 51px; }
+#lightbox-container .control-wrapper a { display:block; height:32px; float:left; }
+
+/* paging - previous */
+#lightbox-container .control-wrapper a.previous { width: 27px; background-position: -51px -8px; }
+#lightbox-container .control-wrapper a.previous:hover { background-position: -51px -58px; }
+
+/* paging - gallery view */
+#lightbox-container .control-wrapper a.gallery-view { width:76px; background-position: -84px -8px; margin: 0 6px; }
+#lightbox-container .control-wrapper a.gallery-view:hover { background-position: -84px -58px }
+
+/* paging - next */
+#lightbox-container .control-wrapper a.next { width:27px; background-position: -166px -8px; float: right; }
+#lightbox-container .control-wrapper a.next:hover { background-position: -166px -58px; }
+
+/* no paging */
+#lightbox-container .control-wrapper.no-paging .lightbox-controls { background-position: 0 -200px; width: 76px; }
+#lightbox-container .control-wrapper.no-paging a.gallery-view { margin: 0; }
+#lightbox-container .control-wrapper.no-paging a.previous,
+#lightbox-container .control-wrapper.no-paging a.next { display:none }
+
+/* no gallery */
+#lightbox-container .control-wrapper.no-gallery .lightbox-controls { background-position: 0 -100px; width: 61px; }
+#lightbox-container .control-wrapper.no-gallery a.gallery-view { display: none;}
+
+/* no controls */
+#lightbox-container .control-wrapper.no-gallery.no-paging { display:none }
+
+/* error loading content */
+#lightbox-container .lightbox-error { text-align:center; font-size:16px; background: #000; vertical-align:text-bottom; line-height:550px }
+
+
+.ie6 #lightbox-container .ui-element,
+.ie6 #lightbox-container #lb-border-right,
+.ie6 #lightbox-container #lb-border-left,
+.ie6 #lightbox-container .corner { background-image: url("../images/ui/lightbox.gif"); }
+.ie6 #lightbox-container { zoom: 1; }

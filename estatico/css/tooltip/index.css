@@ -1,0 +1,25 @@
+.body-top { background: url("../../images/layout/bgs/blacksmith-big.jpg") no-repeat; }
+.page-body { margin-bottom: 0; }
+.page-header .desc a { color: #CFB991; }
+
+.tooltip-instructions { padding: 0 30px 100px 30px; }
+.tooltip-instructions .db-detail-box { padding: 30px; }
+.tooltip-instructions .db-detail-box textarea { padding: 7px; margin-top: 15px; font-size: 14px; font-family: monospace; width: 98%; height: 20px; resize: none; }
+
+.tooltip-examples .section-body { padding-bottom: 0; }
+.tooltip-examples .page-section { margin-bottom: 0; }
+
+.examples-columns {  }
+.examples-column { width: 47%; position: relative; padding-bottom: 173px; }
+.examples-column-left { float: left; }
+.examples-column-right { float: right; }
+.examples-column .ui-tooltip { width: 355px; position: relative; left: 42px; }
+.examples-placeholder-text { color: #332d23; line-height: 1.8em; position: absolute; left: 0; bottom: 0; width: 100%; }
+.examples-placeholder-text a.fake-link { position: relative; z-index: 1; color: #95856A; display: inline-block; text-decoration: underline; }
+.examples-placeholder-text a.fake-link:hover { color: white !important; }
+.examples-placeholder-text a.fake-link .fake-cursor { position: absolute; left: 50%; top: 13px; width: 22px; height: 27px; background: url("../../images/tooltip/index/fake-cursor.png") no-repeat; }
+.examples-placeholder-overlay { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: url("../../images/tooltip/index/sample-mask.png") left bottom repeat-x; }
+
+/* ie */
+.ie6 .examples-placeholder-text a.fake-link .fake-cursor { background-image: url("../../images/tooltip/index/fake-cursor.gif"); }
+.ie6 .examples-placeholder-overlay { display: none; }

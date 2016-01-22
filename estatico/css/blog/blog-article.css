@@ -1,0 +1,39 @@
+/* Blog Articles */
+.blog-article .article-wrapper { padding:29px 11px 0 20px; }
+.blog-article .article-wrapper .header-2 { font-size:24px !important; line-height: 32px !important; margin-bottom: 5px; }
+.blog-article .article-wrapper .header-image { padding: 10px 0 19px 0; text-align:center; position:relative;}
+.blog-article .article-wrapper .header-image img { position: relative; display:inline-block; width: 600px; }
+.blog-article .article-wrapper .article-content .detail { line-height:2em; }
+.blog-article .article-wrapper .article-meta { margin-bottom: 15px; font-size: 12px;}
+.blog-article .article-wrapper .article-meta .edit-article { margin-left: 11px; }
+
+#blog .article-content ul li { list-style: square outside url("../../images/icons/bullet.gif"); }
+
+.blog-article .article-wrapper .article-content ul,
+.blog-article .article-wrapper .article-content ol,
+.blog-article .article-wrapper .article-content dl { padding-left: 1em }
+.blog-article .article-wrapper .article-content ul li { list-style:disc; margin-left:1em }
+.blog-article .article-wrapper .article-content ol li { list-style-type: decimal; margin-left:1em }
+.blog-article .article-wrapper .article-content p { padding:6px 0; }
+.blog-article .article-wrapper .article-content strong,
+.blog-article .article-wrapper .article-content h5 { color: #F3E6D0; }
+
+
+
+.blog-article .article-meta .comments-link { padding-left: 16px; margin-left: 11px; }
+.blog-article .article-meta .publish-date { margin-left: 11px; }
+
+.blog-article .blog-load-more { margin: 30px 0 0 0; }
+
+/* Sidebar */
+.blog-article .right-sidebar #sidebar-recent-articles .articles-list-plain li { padding: 0;} 
+.blog-article .right-sidebar #sidebar-recent-articles .article-block .image { float: left; width: 82px; height: 52px; margin: 0 12px 0 0;  background-position: center center; background-size: cover; border: 1px solid #483a30; border-radius: 3px; box-shadow: inset 0 0 1px 1px #000; }
+.blog-article .right-sidebar #sidebar-recent-articles .article-block:hover .image { border: 1px solid #824c06; }
+
+.blog-article .right-sidebar #sidebar-recent-articles .article-block { padding: 14px; }
+
+.blog-article .sidebar .article-block { display: block; padding: 7px; margin: 0; }
+.blog-article .sidebar .article-block.on-view { display: block; background: rgba(0,0,0,0.3) url("../../images/blog/arrow-recent-article-tab.gif") 7px 50% no-repeat; }
+.blog-article .sidebar .article-block .title { max-height: 36px; display: block; position: relative; overflow: hidden; text-overflow: ellipsis; line-height: 17px; margin-bottom: 3px;}
+.blog-article .sidebar .article-block:hover .title {  }
+.blog-article .sidebar .article-block .date {  display: block; font-size: 13px; color: #5d4e34;}
