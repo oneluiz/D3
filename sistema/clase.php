@@ -11,5 +11,6 @@ function __autoload($className) {
 }
 //Instanciar Clases
 $db			= new Conexion();
+$noticia	= new Noticias();
 // Ejecutar Algunas Clases
 $SistemaApp->ReportarError();
