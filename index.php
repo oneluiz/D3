@@ -403,9 +403,45 @@ _gaq.push(['_trackPageview']);
 										</ul>
 									</div>
 								</div>
-								<div id="fb-root">
-								</div>
+								<div id="fb-root"></div>
 								<div id="dynamic-sidebar-target">
+									<div class="sidebar-module " id="sidebar-blizzard-posts">
+										<div class="sidebar-title">
+											<h3 class="header-3 title-blizzard-posts"><a href="/d3/es/forum/blizztracker/">Mensajes de Blizzard más recientes </a></h3>
+										</div>
+										<div class="sidebar-content">
+											<ul class="articles-list-plain">
+												<li>
+													<a href="/d3/es/forum/topic/20420201919#5" class="title">
+													Feliz año nuevo!! </a>
+													<a href="/d3/es/forum/3354740/" class="category">
+													Foro general </a>
+													<span class="date">2/01/16 02:54 PM</span>
+												</li>
+												<li>
+													<a href="/d3/es/forum/topic/16860656273#1" class="title">
+													Próximamente: Fin de una era </a>
+													<a href="/d3/es/forum/3354740/" class="category">
+													Foro general </a>
+													<span class="date">2/04/15 03:08 PM</span>
+												</li>
+												<li>
+													<a href="/d3/es/forum/topic/16410481012#1" class="title">
+													Parche 2.2.0: detalles y extracción de datos </a>
+													<a href="/d3/es/forum/3354740/" class="category">
+													Foro general </a>
+													<span class="date">20/02/15 09:50 AM</span>
+												</li>
+												<li>
+													<a href="/d3/es/forum/topic/16201181121#1" class="title">
+													Adelanto: Conquistas de la Temporada 2 </a>
+													<a href="/d3/es/forum/3354740/" class="category">
+													Foro general </a>
+													<span class="date">6/02/15 01:55 PM</span>
+												</li>
+											</ul>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
