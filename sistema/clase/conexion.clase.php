@@ -29,7 +29,7 @@ class Conexion {
 		return $this->mysqli;
 	}
 
-	public function Auth(){
+	public function Cuentas(){
 
 		$this->mysqli = new mysqli($this->db_host, $this->db_user, $this->db_pass, $this->db_auth);
 		// Soporte para caracteres especiales en la base de datoss
@@ -61,11 +61,35 @@ class Conexion {
 		return $this->mysqli;
 	}
 
+	public function Mundo(){
+
+		$this->mysqli = new mysqli($this->db_host, $this->db_user, $this->db_pass, $this->db_world);
+		// Soporte para caracteres especiales en la base de datoss
+		$this->mysqli->query("SET NAMES 'utf8'");
+
+		if (mysqli_connect_error()){
+			die("Error al conectar con la base de datos (" . mysqli_connect_errno() . ") " . mysqli_connect_error());
+		}
+
+		/**
+		* Devolver recurso de conexión
+		*/
+		return $this->mysqli;
+	}
+
 	public function SQL($sqlconsulta){
 		return $this->Conectar()->query($sqlconsulta);
 	}
 
-	public function AuthQuery(){
-		return $this->Conectar()->query($sqlconsulta);
+	public function CuentaSQL(){
+		return $this->Cuentas()->query($sqlconsulta);
+	}
+
+	public function CharSQL(){
+		return $this->Personajes()->query($sqlconsulta);
+	}
+
+	public function MundoSQL(){
+		return $this->Mundo()->query($sqlconsulta);
 	}
 }
